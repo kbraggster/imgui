@@ -30,6 +30,4 @@ add_library(imgui ${IMGUI_HEADERS} ${IMGUI_SOURCES})
 # Set include directories for ImGui
 target_include_directories(imgui
         PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}
-        PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/vendor/glfw)
-
-target_link_libraries(imgui PRIVATE glfw)
+        PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/../glfw/include)
