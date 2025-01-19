@@ -21,6 +21,7 @@ set(IMGUI_SOURCES
         imgui_demo.cpp
         imgui_tables.cpp
         backends/imgui_impl_opengl3.cpp
+        backends/imgui_impl_vulkan.cpp
         backends/imgui_impl_glfw.cpp
 )
 
